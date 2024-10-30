@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c-table-container {
+  border: 1px solid black;
+}
+
+.c-table-container th,
+td {
+  border: 1px solid black;
+}
+
+.dark {
+  background-color: darkblue;
+  color: white;
+}
